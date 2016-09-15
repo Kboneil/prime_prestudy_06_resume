@@ -1,0 +1,189 @@
+html, body, header, footer, section, h1, h2, h3, h4, h5, p, ul, li, a, form, figure, figcaption, aside {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size:100%;
+    font:inherit;
+}
+
+body {
+    background: #5C7780 url(https://s9.postimg.org/bmtdmhjgv/wild_flowers.png) top left repeat;
+}
+
+section {
+    margin:30px;
+    background: #efefef;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+header {
+    background-image: url("https://s31.postimg.org/6j4btyr8r/Georgia_1.jpg");
+    background-size: cover;
+    padding: 20px;
+}
+h1, h2, h3 {
+    font-family: 'bodoni MT', 'Times New Roman';
+    font-weight:bold;
+    text-transform:uppercase;
+}
+
+h1, h2 {
+    text-align: center;
+}
+h1 {
+    color: white;
+    font-size: 60px;
+    letter-spacing: 20px;
+    padding: 5px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h2 {
+    font-size:35px;
+    letter-spacing:10px;
+    border-bottom: 2px solid #5C7780;
+    padding:15px;
+    color:#8DAAD1;
+}
+
+expand {
+    display: none;
+}
+
+h3, h4, p {
+    color:#5C7780;
+}
+
+h3 {
+    font-size:20px;
+    letter-spacing:5px;
+    padding: 10px 15px 10px 15px;
+}
+
+h4 {
+    font-size:20px;
+    padding:10px 15px 10px 15px;
+}
+
+p {
+    font-size:18px;
+    padding:10px 15px 10px 15px;
+}
+
+.nav li {
+    display: inline;
+    float:right;
+    padding: 5px;
+    background-color: #efefef;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.nav li:last-child {
+    font-weight:bold;
+}
+
+a {
+    text-decoration:none;
+    color:#8DAAD1;
+    transition: color 0.25s linear .01s;
+}
+
+a:hover {
+    font-weight:bold;
+    color:#5C7780;
+}
+
+.location li {
+    list-style-type:none;
+    display: inline;
+    float:right;
+    margin: 5px;
+    font-size: 18px;
+    color:#5C7780;
+ 
+}
+.location li: first-child {
+    float: left;
+    border: none;
+}
+
+.location li:last-child {
+    border-left: none;
+}
+
+label, input {
+    display:block;
+    margin:15px;
+    color:#5C7780;
+    font-size:20px;
+}
+
+input[type=text], input[type=email], input[type=submit] {
+    border: 2px solid gray;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+input[type=text] {
+    width: 300px;
+    height: 75px;
+}
+
+input[type=submit] {
+    color:#8DAAD1;
+}
+
+.prox li, .school li, .about li {
+    list-style-type:none;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.contact li {
+    list-style-type:none;
+    padding: 10px 15px 10px 15px;
+    font-size:20px;
+    color:#5C7780
+}
+
+
+.headshot {
+    display: block;
+    margin: auto;
+    width:75%;
+    overflow: hidden;
+}
+
+.images {
+    list-style-type:none;
+    text-align: center;
+    overflow: hidden;
+    height:20%;
+    
+}
+
+.images li {
+    display: inline-block;
+    margin: auto;
+   
+}
+
+
+figcaption {
+    text-align:center;
+    color:#5C7780
+    font-size: 20px;
+}
+
+.Tajikistan {
+    float: right;
+    padding: 15px;
+}
+
+.location li:fist-child:before{
+    content: "&#9830";
+}
